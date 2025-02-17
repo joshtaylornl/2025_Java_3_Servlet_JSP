@@ -32,6 +32,10 @@
         <td><a href="SessionVariableForm.jsp">Session Example JSP</a></td>
         <td>Example of a JSP page that uses a form to set a session variable to pass to a servlet</td>
     </tr>
+    <tr>
+        <td><a href="JSPExamples.jsp">JSP Examples</a></td>
+        <td>Example of a JSP page that uses a form to set a session variable</td>
+    </tr>
 </table>
 
 </body>

@@ -14,6 +14,9 @@
 
 <%
     Foo foo = (Foo) request.getSession().getAttribute(Foo.NAME);
+
+    //Alternatively
+    //Foo foo = (Foo) session.getAttribute(Foo.NAME);
 %>
 
 foo is <%= foo == null ? "No foo" : foo.toString() %>
